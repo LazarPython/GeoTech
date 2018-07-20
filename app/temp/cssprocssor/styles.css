@@ -1,9 +1,0 @@
-body {
-  font-family: 'Vollkorn', serif;
-  -webkit-columns: 300px 2;
-  columns: 300px 2;
-  color: #333;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-weight: 700; }

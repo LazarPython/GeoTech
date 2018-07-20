@@ -1,0 +1,21 @@
+body {
+  font-family: 'Vollkorn', serif;
+  background-color: #FBFBFF; }
+
+.head {
+  font-size: .75rem; }
+  .head__green {
+    background-color: #018730; }
+
+.head__list {
+  border-right: 0.01rem solid #FBFBFF;
+  word-spacing: 0.15rem; }
+
+.head__list:last-child {
+  border-right: none; }
+
+.head__link--color {
+  color: #FBFBFF; }
+
+.head__i {
+  margin-right: 0.3rem; }

@@ -1,3 +1,5 @@
-@import '_variables.scss';
-@import 'geoteh-global/_globalstyle.scss';
-@import 'geoteh-modules/_header.scss';
+@import 'global-styles/_variables.scss';
+@import 'global-styles/_mixins.scss';
+@import 'global-styles/_globalstyle.scss';
+@import 'global-styles/_header.scss';
+@import 'geoteh-modules/_mainpage.scss';

@@ -1,25 +1,16 @@
 .mainpage {
+	position: relative;
 
-	&__picture {
+	&__background-img {
 		width: 100%;
-		height: auto;
-		margin-bottom: 0px;
+		max-height: 900px
 	}
 
 	&__content {
-		display: inline-block;
-		overflow: hidden;
-		color: $imperial-blue;
-		background-color: $malachite;
-
-		&::after{
-			content: "";
-			display: table;
-			clear: both;
-		}
-	}
-
-	&__description {
-		background-color: $malachite;
+		position: absolute;
+		top: 45%;
+		width:100%;
+		text-align: center;
+		color: $ghost-white;
 	}
 }

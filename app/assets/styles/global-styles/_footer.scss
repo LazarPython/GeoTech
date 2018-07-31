@@ -1,0 +1,30 @@
+.footer {
+	min-height: 200px;
+
+	&__segment {
+		padding: 3rem;
+	}
+
+	&__contact {
+		margin-top: 20%;
+	}
+
+	&__list {
+		list-style: none;
+		padding: 3% 30%;
+	}
+
+	&__link {
+		color: $ghost-white;
+		font-weight: 500;
+		font-size: 1.35rem;
+
+		&--head {
+			color: $ghost-white;
+		}
+	}
+
+	&__arrow {
+		margin-right: 0.3rem;
+	}
+}

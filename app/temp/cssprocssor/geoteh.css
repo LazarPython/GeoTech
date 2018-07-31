@@ -3,6 +3,7 @@ body {
   background-color: #FBFBFF; }
 
 .head {
+  position: relative;
   display: inline;
   font-size: .75rem;
   margin: auto; }
@@ -56,6 +57,8 @@ body {
       font-size: 1.25rem;
       padding-right: 1rem;
       padding-top: 0.5rem; } }
+  .head__contact--footer-variant {
+    margin-top: 50%; }
 
 .head__menu-icon-top {
   background-color: #FBFBFF;
@@ -99,23 +102,47 @@ body {
     -webkit-transform: rotate(-45deg) scaleX(1.1) translateY(3px);
     transform: rotate(-45deg) scaleX(1.1) translateY(3px); }
 
-.mainpage__picture {
-  width: 100%;
-  height: auto;
-  margin-bottom: 0px; }
+.footer {
+  min-height: 200px; }
+  .footer__segment {
+    padding: 3rem; }
+  .footer__contact {
+    margin-top: 20%; }
+  .footer__list {
+    list-style: none;
+    padding: 3% 30%; }
+  .footer__link {
+    color: #FBFBFF;
+    font-weight: 500;
+    font-size: 1.35rem; }
+    .footer__link--head {
+      color: #FBFBFF; }
+  .footer__arrow {
+    margin-right: 0.3rem; }
 
-.mainpage__content {
-  display: inline-block;
-  overflow: hidden;
-  color: #0B4F6C;
-  background-color: #20BF55; }
-  .mainpage__content::after {
-    content: "";
-    display: table;
-    clear: both; }
+.mainpage {
+  position: relative; }
+  .mainpage__background-img {
+    width: 100%;
+    max-height: 900px; }
+  .mainpage__content {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    color: #FBFBFF; }
 
-.mainpage__description {
-  background-color: #20BF55; }
+.extra-info {
+  padding: 3rem 1.5rem;
+  background-color: #FBFBFF; }
+  .extra-info__text {
+    color: #0B4F6C; }
+    .extra-info__text--link {
+      color: #FF7F07; }
+    .extra-info__text--sub {
+      color: #0B4F6C;
+      font-weight: 500;
+      font-size: 1.35rem; }
 
 .sekcija {
   margin: 2rem 2rem; }

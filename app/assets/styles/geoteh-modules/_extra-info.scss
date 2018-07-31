@@ -1,0 +1,18 @@
+.extra-info {
+	padding: 3rem 1.5rem; 
+	background-color: $ghost-white;
+
+	&__text {
+		color: $imperial-blue;
+
+		&--link {
+			color: $main-orange;
+		}
+
+		&--sub {
+			color: $imperial-blue;
+			font-weight: 500;
+			font-size: 1.35rem;
+		}
+	}
+}

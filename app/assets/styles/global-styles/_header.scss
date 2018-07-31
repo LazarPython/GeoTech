@@ -1,4 +1,5 @@
 .head {
+	position: relative;
 	display: inline;
 	font-size: .75rem;
 	margin:auto;
@@ -68,6 +69,11 @@
 		font-size: 1.25rem;
 		padding-right: 1rem;
 		padding-top: 0.5rem;
+	}
+
+	&--footer-variant {
+		margin-top: 50%;
+
 	}
 }
 
